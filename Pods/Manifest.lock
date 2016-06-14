@@ -1,0 +1,10 @@
+PODS:
+  - DLPanableWebView (0.9.1)
+
+DEPENDENCIES:
+  - DLPanableWebView (~> 0.9.1)
+
+SPEC CHECKSUMS:
+  DLPanableWebView: 955fad0362f065729cd597e898ca5cb60c8e40cb
+
+COCOAPODS: 0.39.0

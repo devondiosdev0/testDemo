@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <script type="text/javascript">
+            window.onload = init;
+            function init(){
+                var button = document.getElementById("button");
+                button.onclick = clickedTask;
+            }
+        
+        function clickedTask(){
+            self.history.back(-1);
+        }
+        
+            </script>
+    </head>
+    <body>
+        <form>
+            <p>I'm using MPMediaPickerController to pick audio file. the first time everything works fine, but when I tap the button that performs picker actions for the 2nd time, the application freezes. Here is the code i'm using,</p>
+            <p>Last name: <input type="text" name="lname" /></p>
+            <input type="button" value="I'm using MPMediaPickerController to pick audio file. the first time everything works fine, but when I tap the button that performs picker actions for the 2nd time, the application freezes. Here is the code i'm using," id = "button"/>
+        </form>
+    </body>
+</html>
